@@ -2,7 +2,7 @@
     package="com.example.swipeable">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="swipeable"
+        android:label="NewsSwipe"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

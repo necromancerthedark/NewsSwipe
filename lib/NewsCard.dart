@@ -75,7 +75,7 @@ class _NewsCardState extends State<NewsCard> {
                 child: Text(
                   widget.Title,
                   style: GoogleFonts.lora(
-                      fontSize: 23,
+                      fontSize: 20,
                       color: Colors.white,
                       fontWeight: FontWeight.w600,
                       fontStyle: FontStyle.italic),
@@ -87,18 +87,19 @@ class _NewsCardState extends State<NewsCard> {
                 indent: 20.0,
                 color: Colors.white,
               ),
-              Container(
-                padding: EdgeInsets.all(15),
-                child: Text(
-                  widget.Description,
-                  style: GoogleFonts.inconsolata(
-                    fontSize: 20,
-                    //fontStyle: FontStyle.italic,
+              SingleChildScrollView(
+                child: Container(
+                  padding: EdgeInsets.all(15),
+                  child: Text(
+                    widget.Description,
+                    style: GoogleFonts.inconsolata(
+                        // fontSize: 15,
+                        //fontStyle: FontStyle.italic,
+                        ),
+                    textAlign: TextAlign.center,
                   ),
-                  textAlign: TextAlign.center,
                 ),
               ),
-              Spacer(),
               Text(
                 "Source: " + widget.SourceName,
                 style: TextStyle(
