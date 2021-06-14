@@ -10,6 +10,8 @@ It has swipe functionality which displays the news headlines and you can share a
 
 It uses NewsAPI.com to fetch news JSON data from various sources.
 
+Just Swipe up! No complexity, Simple & Sweet.
+
 ## Features:
 
 - Swipe to get News.
