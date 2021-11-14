@@ -8,7 +8,7 @@ NewsSwipe is an app built with Flutter and Dart.
 
 It has swipe functionality which displays the news headlines and you can share as well as read the full news on web browser of your choice 😃! 
 
-It uses NewsAPI.com to fetch news JSON data from various sources.
+It uses NewsAPI.org to fetch news JSON data from various sources.
 
 Just Swipe up! No complexity, Simple & Sweet.
 
